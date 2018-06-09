@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo enter directory 
+read descdir
+du -ah $descdir | sort -rh
+

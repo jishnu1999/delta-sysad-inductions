@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cat web_logs.txt | awk '{print ":"$2}' | sort -n | uniq -c | sort -rn | head -20
+
+

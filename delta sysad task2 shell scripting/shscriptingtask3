@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo enter filename
+read fname
+echo enter word to be replaced
+read oword
+echo enter new word 
+read nword
+sed -i "s/$oword/$nword/g" $fname

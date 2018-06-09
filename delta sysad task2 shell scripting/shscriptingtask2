@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo enter filename
+read fname
+echo enter word to be searched
+read word
+grep -o $word $fname | wc -l

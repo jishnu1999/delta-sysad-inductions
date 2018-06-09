@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo enter directory 
+read cleandir 
+find $cleandir -empty -mtime +14 -delete
